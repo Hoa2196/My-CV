@@ -1,0 +1,196 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+}
+
+.navbar-nav li {
+    padding: 0 24px;
+}
+
+.container-main {
+    margin-top: 100px;
+}
+
+/* Phần title */
+.title {
+    padding: 0 15px;
+}
+
+.title-img {
+    width: 60%;
+    border: 3px solid #fff;
+
+}
+.title-icon_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-icon_image {
+    width: 30px;
+    filter: brightness(0);
+    margin: 20px 20px;
+}
+
+.title-1 {
+    background-image: linear-gradient(to top, #5ea4e2, #12caeb);
+    padding: 40px 10px;
+    box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.453);
+    border-radius: 8px;
+}
+
+.title-text2 h1 {
+    font-size: 50px;
+}
+
+.title-text1 {
+    color: #fff;
+}
+
+.title-text1 h2 {
+    margin: 40px 0 20px 0;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.title-text1 p {
+    font-size: 24px;
+}
+
+.btn-title {
+    margin: 16px 24px;
+    background-color: #12caeb;
+    color: #fff;
+}
+
+.btn-title:hover {
+    background-color: #01738d;
+    color: #fff;
+}
+.title-info {
+    background-color: rgba(236, 246, 255, 0.349);
+    border-radius: 8px;
+    padding: 10px ;
+}
+
+/* Phần work */
+.work {
+    margin-top: 80px;
+}
+.work-info {
+    background-color: rgb(236, 246, 255);
+    border: none;
+    border-radius: 8px;
+}
+
+/* Phần skill */
+.skill {
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.progress-color {
+    background-color: #cf2128;
+}
+.html-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill-heading__icon {
+    display: flex;
+}
+/* company */
+.company {
+    margin-bottom: 48px;
+}
+
+.company-card img {
+    box-shadow: 0 2px 2px rgba(132, 132, 132, 0.453);
+}
+
+
+/* product */
+.product-item {
+    background-color: rgba(236, 246, 255, 0.349);
+    border: 1px solid #12cbeb5d;
+}
+.product-number {
+    background-color: #12caeb;
+    padding: 10px 16px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.product-btn {
+    margin: 8px 0;
+    background-color: #12caeb;
+    color: #fff;
+}
+/* Phần design */
+.design {
+    margin-top: 40px;
+
+}
+
+.design-img {
+    column-count: 4;
+    /* text-align: center; */
+    /* column-gap: 10px; */
+}
+
+.design-img__item {
+    width: 100%;
+    break-inside: avoid;
+    margin-top: 12px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_image {
+    width: 30px;
+    margin: 20px 20px;
+}
+
+
+@media (max-width: 767px) {
+    .design-img {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .title-1,
+    .title-2 {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .design-img {
+        column-count: 2;
+    }
+
+}
