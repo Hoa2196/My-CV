@@ -208,7 +208,7 @@ p {
     z-index: -10;
     position: absolute;
     top: 400px;
-    left: 50px;
+    left: -25px;
     width: 200px;
     opacity: 0.5;
 
@@ -228,7 +228,7 @@ p {
     z-index: -10;
     position: absolute;
     bottom: -800px;
-    right: 50px;
+    right: -60px;
     width: 200px;
     opacity: 0.2;
     rotate: 40deg;
@@ -238,7 +238,7 @@ p {
     z-index: -10;
     position: absolute;
     bottom: -1500px;
-    left: -250px;
+    left: -319px;
     width: 500px;
     opacity: 0.2;
     rotate: 100deg;
@@ -248,7 +248,7 @@ p {
     z-index: -10;
     position: absolute;
     bottom: -2200px;
-    right: -200px;
+    right: -250px;
     width: 400px;
     opacity: 0.2;
     rotate: 40deg;
