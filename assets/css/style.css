@@ -7,6 +7,7 @@
 p {
     font-size: 18px;
 }
+
 .container {
     position: relative;
 }
@@ -36,6 +37,7 @@ p {
     overflow: hidden;
     /* padding: 0; */
 }
+
 .title-image {
     width: 200px;
     height: 200px;
@@ -71,6 +73,7 @@ p {
     justify-content: center;
     align-items: center;
 }
+
 .title-icon_image {
     width: 30px;
     filter: brightness(0);
@@ -106,16 +109,18 @@ p {
     background-color: #01738d;
     color: #fff;
 }
+
 .title-info {
     background-color: rgba(236, 246, 255, 0.349);
     border-radius: 8px;
-    padding: 10px ;
+    padding: 10px;
 }
 
 /* Phần work */
 .work {
     margin-top: 80px;
 }
+
 .work-info {
     background-color: rgb(236, 246, 255);
     border: none;
@@ -127,9 +132,11 @@ p {
     margin-top: 40px;
     margin-bottom: 28px;
 }
+
 .progress-color {
     background-color: #cf2128;
 }
+
 .html-icon {
     width: 30px;
     height: 30px;
@@ -139,6 +146,7 @@ p {
 .skill-heading__icon {
     display: flex;
 }
+
 /* company */
 .company {
     margin-bottom: 48px;
@@ -154,17 +162,20 @@ p {
     background-color: rgba(236, 246, 255, 0.349);
     border: 1px solid #12cbeb5d;
 }
+
 .product-number {
     background-color: #12caeb;
     padding: 10px 16px;
     border-radius: 50%;
     margin-right: 8px;
 }
+
 .product-btn {
     margin: 8px 0;
     background-color: #12caeb;
     color: #fff;
 }
+
 /* Phần design */
 .design {
     margin-top: 40px;
@@ -173,15 +184,29 @@ p {
 
 .design-img {
     column-count: 4;
-    /* text-align: center; */
-    /* column-gap: 10px; */
+}
+
+.design-image {
+    overflow: hidden;
+    margin-bottom: 12px;
+
+}
+
+.design-image:hover .design-img__item {
+    transform: scale(1.2);
 }
 
 .design-img__item {
     width: 100%;
     break-inside: avoid;
-    margin-top: 12px;
+    /* object-position: center; */
+    /* object-fit: cover; */
+    transition: 0.25s;
 }
+
+/* Phần ảnh click vào sẽ phóng to */
+
+/* Phần footer */
 
 .footer {
     background-color: #333;
@@ -209,22 +234,27 @@ p {
     .design-img {
         column-count: 2;
     }
+
     .background {
         display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+
     .title-1,
     .title-2 {
         width: 100%;
     }
+
     .container {
         width: 100%;
     }
+
     .design-img {
         column-count: 2;
     }
+
     .background {
         display: none;
     }
@@ -240,6 +270,7 @@ p {
     opacity: 0.5;
 
 }
+
 .background-2 {
     position: absolute;
     z-index: -10;
@@ -270,6 +301,7 @@ p {
     opacity: 0.2;
     rotate: 100deg;
 }
+
 .background-5 {
     position: absolute;
     z-index: -10;
